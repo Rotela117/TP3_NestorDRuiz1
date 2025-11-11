@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 3 - Operaciones</title>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+
+    <header>
+        <h1>Tabla de Operaciones</h1>
+    </header>
+
+    <section class="tabla-container">
+        <table>
+            <thead>
+                <tr>
+                    <th class="th-anim">Operación</th>
+                    <th class="th-anim">Descripción</th>
+                    <th class="th-anim">Botón</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Suma</td>
+                    <td>Suma los 2 números ingresados</td>
+                    <td><button onclick="calcularSuma()">Calcular</button></td>
+                </tr>
+
+                <tr>
+                    <td>División</td>
+                    <td>Divide el primer número con el segundo ingresado</td>
+                    <td><button onclick="calcularDivision()">Calcular</button></td>
+                </tr>
+
+                <tr>
+                    <td>Promedio</td>
+                    <td>Promedia los 2 números ingresados</td>
+                    <td><button onclick="calcularPromedio()">Calcular</button></td>
+                </tr>
+
+                <tr>
+                    <td colspan="3" class="info-final">
+                        El resultado aparecerá abajo de la tabla.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Resultado visible en pantalla -->
+    <div id="resultado"></div>
+
+    <section class="botonera">
+        <button onclick="location.href='index.html'">Página Principal</button>
+        <button onclick="location.href='pagina1.html'">Página 1</button>
+        <button onclick="location.href='pagina2.html'">Página 2</button>
+    </section>
+
+    <footer>
+        © Néstor Diosnel Ruiz Rotela
+    </footer>
+
+    <script src="script3.js"></script>
+</body>
+</html>

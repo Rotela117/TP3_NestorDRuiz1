@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #e3e8ef;
+    text-align: center;
+    color: #2f3a45;
+}
+
+/* Header */
+header {
+    background: #2d3e50;
+    color: #dce3eb;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+/* Galería */
+.galeria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.galeria img {
+    width: 180px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.17);
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+/* Animaciones distintas para cada imagen */
+.anim1:hover {
+    transform: scale(1.15);
+}
+
+.anim2:hover {
+    transform: rotate(4deg) scale(1.05);
+}
+
+.anim3:hover {
+    filter: brightness(1.3);
+}
+
+.anim4:hover {
+    transform: translateY(-10px) scale(1.03);
+}
+
+.anim5:hover {
+    transform: scale(1.05) rotate(-3deg);
+}
+
+/* Botonera */
+.botonera {
+    margin: 30px 0;
+}
+
+button {
+    background-color: #556c87;
+    color: white;
+    padding: 14px 32px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.08);
+    background-color: #3e5268;
+}
+
+/* Footer */
+footer {
+    background: #253544;
+    padding: 15px;
+    color: #d8dee6;
+    margin-top: 40px;
+}
